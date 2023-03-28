@@ -1,0 +1,25 @@
+>>> report_design_area
+Design area 2489 u^2 45% utilization.
+
+>>> report_power
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.36e-03   2.68e-04   2.39e-07   1.63e-03  13.4%
+Combinational          4.35e-03   6.11e-03   1.99e-06   1.05e-02  86.6%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  5.70e-03   6.38e-03   2.23e-06   1.21e-02 100.0%
+                          47.2%      52.8%       0.0%
+
+>>> report_clock_skew
+Clock core_clock
+Latency      CRPR       Skew
+_34604_/CLK ^
+ 333.50
+_34843_/CLK ^
+ 151.73     -0.27     181.50
+
+>>> report_worst_slack
+worst slack -107.32

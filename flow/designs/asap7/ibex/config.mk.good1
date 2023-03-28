@@ -18,7 +18,7 @@ export DFF_LIB_FILE           = $($(CORNER)_DFF_LIB_FILE)
 #Synthesis
 #export ABC_AREA = 1
 export ABC_SPEED = 1
-export _SDC_CLK_PERIOD = 1326.22
+export _SDC_CLK_PERIOD = 326.22
 export CELL_PAD_IN_SITES_GLOBAL_PLACEMENT = 0
 export CELL_PAD_IN_SITES_DETAIL_PLACEMENT = 0
 export _FR_LAYER_ADJUST =  0.2021
